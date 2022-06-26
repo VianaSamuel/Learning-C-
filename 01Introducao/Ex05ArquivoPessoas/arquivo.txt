@@ -1,0 +1,14 @@
+Código: 100
+Nome: Samuel
+Idade: 18
+Endereço: Rua X
+Número: 999
+Complemento: Casa
+
+Código: 101
+Nome: Leticia
+Idade: 19
+Endereço: Rua Y
+Número: 1000
+Complemento: Casa
+
