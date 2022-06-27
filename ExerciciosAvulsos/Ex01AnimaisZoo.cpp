@@ -18,7 +18,7 @@ class Animal{
         string data;
     public:
         Animal(int gJaula = 0, float gPeso = 0, string gData = " ");
-        void changeWeight(Animal a);
+        void changeWeight();
 };
 
 Animal::Animal(int gJaula, float gPeso, string gData){
@@ -27,7 +27,7 @@ Animal::Animal(int gJaula, float gPeso, string gData){
     data = gData;
 }
 
-void Animal::changeWeight(Animal a){
+void Animal::changeWeight(){
     cout << "Último peso: " << peso << endl;
     cout << "Data da última pesagem: " << data << endl << endl;
 
@@ -39,6 +39,8 @@ void Animal::changeWeight(Animal a){
 
     cout << "Digite a data da nova pesagem: ";
     cin >> novaData;
+
+    cout << endl;
 
     peso = novoPeso;
     data = novaData;
@@ -64,5 +66,5 @@ int main(){
     cout << endl;
 
     Animal a(gJaula, gPeso, gData);
-    a.changeWeight(Animal a);
+    a.changeWeight();
 }
