@@ -96,5 +96,7 @@ int main(){
 
         Pessoa p = Pessoa(gArquivo, gCodigo, gNome, gIdade, gEndereco, gNumero, gComplemento);
         p.registra_pessoa(p);
+
+        cout << "Arquivo gerado com sucesso.";
     }
 }

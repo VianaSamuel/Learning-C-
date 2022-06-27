@@ -1,0 +1,40 @@
+Mês 1:
+Aniversariante: Leandro, dia 11.
+
+Mês 2:
+Nenhum aniversariante nesse mês.
+
+Mês 3:
+Aniversariante: Paula, dia 12.
+Aniversariante: Lara, dia 15.
+Aniversariante: Tiago, dia 12.
+
+Mês 4:
+Aniversariante: Sergio, dia 23.
+
+Mês 5:
+Nenhum aniversariante nesse mês.
+
+Mês 6:
+Nenhum aniversariante nesse mês.
+
+Mês 7:
+Aniversariante: Paulo Sergio, dia 21.
+Aniversariante: Leticia, dia 12.
+
+Mês 8:
+Aniversariante: Caio, dia 26.
+Aniversariante: Pedro, dia 22.
+
+Mês 9:
+Nenhum aniversariante nesse mês.
+
+Mês 10:
+Nenhum aniversariante nesse mês.
+
+Mês 11:
+Nenhum aniversariante nesse mês.
+
+Mês 12:
+Aniversariante: Lucas, dia 25.
+
