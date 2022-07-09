@@ -1,10 +1,12 @@
 /*
-Para a classe Pessoa, implemente o método ehMaior():booleano. Ele deve
+    a) Para a classe Pessoa, implemente o método ehMaior():booleano. Ele deve
 descrever uma operação que verifique se uma pessoa é maior de idade ou não.
-Construa a subclasse Aluno como uma especialização da classe Pessoa. Ela deverá
+    b) Construa a subclasse Aluno como uma especialização da classe Pessoa. Ela deverá
 acrescentar o atributo relativo ao número de matrícula do aluno. Deverá também
 promover um construtor com três argumentos: o número de matrícula do aluno,
 seu nome e sua idade.
+    c) Implemente o método maisVelho(Pessoa): Pessoa na classe Pessoa. Ele deve calcular e retornar a instância de Pessoa relativa à pessoa mais velha, a corrente ou aquela recebida por parâmetro.
+    d) Teste as suas classes instanciando dois alunos, pedindo suas idades ao usuário e imprimindo se ambos são ou não maior de idade, além de qual dos dois é o mais velho.
 */
 
 #include <iostream>
@@ -65,6 +67,8 @@ class Aluno: public Pessoa{
         int matricula;
     public:
         Aluno(string nome, int idade, int matricula);
+        void setMatricula(int matricula);
+        int getMatricula();
 };
 
 Aluno::Aluno(string nome, int idade, int matricula): Pessoa(){
@@ -76,14 +80,25 @@ Aluno::Aluno(string nome, int idade, int matricula): Pessoa(){
     this->matricula = matricula;
 }
 
+
+
 int main(){
     Pessoa p;
+    Aluno a("", 0, 0);
     string nome;
-    int idade;
-    
+    int idade, matricula;
+
+    cout << endl << "Digite seu nome: ";
+    cin >> nome;
+    p.setNome(nome);
+
     cout << "Digite sua idade: ";
     cin >> idade;
     p.setIdade(idade);
+
+    cout << "Digite sua matrícula: ";
+    cin >> matricula;
+    a.setMatricula(matricula);
 
     bool ehMaior = p.ehMaior();
     if (ehMaior == true) cout << "Maior de idade.";
